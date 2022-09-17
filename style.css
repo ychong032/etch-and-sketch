@@ -1,14 +1,84 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    background-color: #16213E;
+    color: cyan;
+}
+
+#main {
+    display: flex;
+    gap: 32px;
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 250px;
+    justify-content: center;
+    align-self: center;
+    background-color: #0F3460;
+    border-radius: 8px;
+    padding: 0px 24px;
+    color: cyan;
+}
+
+#settings h2 {
+    text-align: center;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 600px;
+    height: 600px;
 }
 
 button {
     font-size: 16px;
     margin-bottom: 16px;
+    background-color: transparent;
+    border-color: cyan;
+    border-radius: 4px;
+    color: cyan;
+}
+
+#footer {
+    margin-top: auto;
+    background-color: #533483;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#pen-color-picker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+#grid-color-picker {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#toggle-container {
+    display:flex;
+    justify-content: space-between;
 }
