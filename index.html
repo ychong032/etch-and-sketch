@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch A Sketch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Etch A Sketch</h1>
-    <div id="main">
-        <div id="settings">
-            <h2>Settings</h2>
-            <div id="pen-color-picker">
-                <label for="pen-color">Pen color:</label>
-                <input type="color" id="pen-color" name="pen-color" value="#000000">
+    <div id="content">
+        <div id="frame">
+            <h1>Etch A Sketch</h1>
+            <div id="main">
+                <div id="settings">
+                    <h2>Settings</h2>
+                    <div id="pen-color-picker">
+                        <label for="pen-color">Pen color:</label>
+                        <input type="color" id="pen-color" name="pen-color" value="#000000">
+                    </div>
+                    <div id="grid-color-picker">
+                        <label for="grid-color">Grid color:</label>
+                        <input type="color" id="grid-color" name="grid-color" value="#ffffff">
+                    </div>
+                    <div id="toggle-container">
+                        <div>Pen color mode:</div>
+                        <button id="toggle">Manual</button>
+                    </div>
+                    <button id="change-grid">Change grid size</button>
+                    <button id="clear-grid">Clear grid</button>
+                    <button id="gridlines">Toggle gridlines</button>
+                </div>
+                <div id="container">
+                </div>
             </div>
-            <div id="grid-color-picker">
-                <label for="grid-color">Grid color:</label>
-                <input type="color" id="grid-color" name="grid-color" value="#ffffff">
-            </div>
-            <div id="toggle-container">
-                <div>Pen color mode:</div>
-                <button id="toggle">Manual</button>
-            </div>
-            <button id="change-grid">Change grid size</button>
-            <button id="clear-grid">Clear grid</button>
-            <button id="gridlines">Toggle gridlines</button>
-        </div>
-        <div id="container">
         </div>
     </div>
     <div id="footer">

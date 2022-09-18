@@ -1,18 +1,35 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     height: 100vh;
     margin: 0;
-    background-color: #16213E;
-    color: cyan;
+    background-color: rgb(198, 235, 197);
+    color: rgb(251, 242, 207);
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 112, 112);
+    padding: 0 36px 36px;
+    border-radius: 16px;
 }
 
 #main {
     display: flex;
     gap: 32px;
+    background-color: lightslategray;
+    padding-left: 32px;
+    border-radius: 12px;
 }
 
 #settings {
@@ -22,10 +39,9 @@ body {
     width: 250px;
     justify-content: center;
     align-self: center;
-    background-color: #0F3460;
     border-radius: 8px;
     padding: 0px 24px;
-    color: cyan;
+    color: rgb(251, 242, 207);
 }
 
 #settings h2 {
@@ -41,17 +57,17 @@ body {
 
 button {
     font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
     margin-bottom: 16px;
     background-color: transparent;
-    border-color: cyan;
+    border-color: rgb(251, 242, 207);
     border-radius: 4px;
-    color: cyan;
+    color: rgb(251, 242, 207);
 }
 
 #footer {
-    margin-top: auto;
-    background-color: #533483;
-    color: white;
+    background-color: rgb(161, 194, 152);
+    color: rgb(251, 242, 207);
     width: 100%;
     text-align: center;
 }

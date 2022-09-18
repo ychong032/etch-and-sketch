@@ -1,2 +1,2 @@
-# etch-and-sketch
-Etch and sketch on a web page.
+# Etch A Sketch
+Etch A Sketch on a web page.
